@@ -1,0 +1,2 @@
+python -u analysis\plot_performance_comparison\step0_gen_data_for_figure2.py
+python -u analysis\plot_performance_comparison\step1_plot_figure2.py
