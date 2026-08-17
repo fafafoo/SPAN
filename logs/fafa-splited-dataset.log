@@ -1,0 +1,111 @@
+========== Round 0 - Creating 5-fold data splits - 2026-03-22 21:28:23 ========== - 2026-03-22 21:28:23,580
+Loading miRNA-disease association data to determine dataset size... - 2026-03-22 21:28:23,580
+Total samples in dataset: 504123 - 2026-03-22 21:28:24,270
+Generating 5-fold cross-validation splits (random seed: 42)... - 2026-03-22 21:28:24,271
+Fold 1: train_size=403298, val_size=100825 - 2026-03-22 21:28:24,317
+Fold 2: train_size=403298, val_size=100825 - 2026-03-22 21:28:24,317
+Fold 3: train_size=403298, val_size=100825 - 2026-03-22 21:28:24,317
+Fold 4: train_size=403299, val_size=100824 - 2026-03-22 21:28:24,317
+Fold 5: train_size=403299, val_size=100824 - 2026-03-22 21:28:24,318
+K-fold splits saved to D:\SPAN\5fold_splits_round_0.pkl - 2026-03-22 21:28:24,330
+========== Round 0 data splits creation completed - 2026-03-22 21:28:24 ========== - 2026-03-22 21:28:24,330
+========== Round 1 - Creating 5-fold data splits - 2026-04-03 17:37:12 ========== - 2026-04-03 17:37:12,335
+Loading miRNA-disease association data to determine dataset size... - 2026-04-03 17:37:12,335
+Total samples in dataset: 504123 - 2026-04-03 17:37:13,007
+Generating 5-fold cross-validation splits (random seed: 43)... - 2026-04-03 17:37:13,008
+Fold 1: train_size=403298, val_size=100825 - 2026-04-03 17:37:13,057
+Fold 2: train_size=403298, val_size=100825 - 2026-04-03 17:37:13,058
+Fold 3: train_size=403298, val_size=100825 - 2026-04-03 17:37:13,058
+Fold 4: train_size=403299, val_size=100824 - 2026-04-03 17:37:13,058
+Fold 5: train_size=403299, val_size=100824 - 2026-04-03 17:37:13,058
+K-fold splits saved to D:\SPAN\5fold_splits_round_1.pkl - 2026-04-03 17:37:13,067
+========== Round 1 data splits creation completed - 2026-04-03 17:37:13 ========== - 2026-04-03 17:37:13,067
+========== Round 2 - Creating 5-fold data splits - 2026-04-03 17:37:17 ========== - 2026-04-03 17:37:17,944
+Loading miRNA-disease association data to determine dataset size... - 2026-04-03 17:37:17,944
+Total samples in dataset: 504123 - 2026-04-03 17:37:18,617
+Generating 5-fold cross-validation splits (random seed: 44)... - 2026-04-03 17:37:18,618
+Fold 1: train_size=403298, val_size=100825 - 2026-04-03 17:37:18,665
+Fold 2: train_size=403298, val_size=100825 - 2026-04-03 17:37:18,665
+Fold 3: train_size=403298, val_size=100825 - 2026-04-03 17:37:18,665
+Fold 4: train_size=403299, val_size=100824 - 2026-04-03 17:37:18,665
+Fold 5: train_size=403299, val_size=100824 - 2026-04-03 17:37:18,665
+K-fold splits saved to D:\SPAN\5fold_splits_round_2.pkl - 2026-04-03 17:37:18,676
+========== Round 2 data splits creation completed - 2026-04-03 17:37:18 ========== - 2026-04-03 17:37:18,676
+========== Round 3 - Creating 5-fold data splits - 2026-04-03 17:37:30 ========== - 2026-04-03 17:37:30,406
+Loading miRNA-disease association data to determine dataset size... - 2026-04-03 17:37:30,406
+Total samples in dataset: 504123 - 2026-04-03 17:37:31,092
+Generating 5-fold cross-validation splits (random seed: 45)... - 2026-04-03 17:37:31,092
+Fold 1: train_size=403298, val_size=100825 - 2026-04-03 17:37:31,138
+Fold 2: train_size=403298, val_size=100825 - 2026-04-03 17:37:31,138
+Fold 3: train_size=403298, val_size=100825 - 2026-04-03 17:37:31,138
+Fold 4: train_size=403299, val_size=100824 - 2026-04-03 17:37:31,138
+Fold 5: train_size=403299, val_size=100824 - 2026-04-03 17:37:31,138
+K-fold splits saved to D:\SPAN\5fold_splits_round_3.pkl - 2026-04-03 17:37:31,150
+========== Round 3 data splits creation completed - 2026-04-03 17:37:31 ========== - 2026-04-03 17:37:31,150
+========== Round 4 - Creating 5-fold data splits - 2026-04-03 17:37:39 ========== - 2026-04-03 17:37:39,382
+Loading miRNA-disease association data to determine dataset size... - 2026-04-03 17:37:39,382
+Total samples in dataset: 504123 - 2026-04-03 17:37:40,065
+Generating 5-fold cross-validation splits (random seed: 46)... - 2026-04-03 17:37:40,066
+Fold 1: train_size=403298, val_size=100825 - 2026-04-03 17:37:40,111
+Fold 2: train_size=403298, val_size=100825 - 2026-04-03 17:37:40,111
+Fold 3: train_size=403298, val_size=100825 - 2026-04-03 17:37:40,111
+Fold 4: train_size=403299, val_size=100824 - 2026-04-03 17:37:40,111
+Fold 5: train_size=403299, val_size=100824 - 2026-04-03 17:37:40,111
+K-fold splits saved to D:\SPAN\5fold_splits_round_4.pkl - 2026-04-03 17:37:40,123
+========== Round 4 data splits creation completed - 2026-04-03 17:37:40 ========== - 2026-04-03 17:37:40,124
+========== Round 5 - Creating 5-fold data splits - 2026-04-05 16:07:20 ========== - 2026-04-05 16:07:20,568
+Loading miRNA-disease association data to determine dataset size... - 2026-04-05 16:07:20,568
+Total samples in dataset: 504123 - 2026-04-05 16:07:22,014
+Generating 5-fold cross-validation splits (random seed: 47)... - 2026-04-05 16:07:22,016
+Fold 1: train_size=403298, val_size=100825 - 2026-04-05 16:07:22,091
+Fold 2: train_size=403298, val_size=100825 - 2026-04-05 16:07:22,091
+Fold 3: train_size=403298, val_size=100825 - 2026-04-05 16:07:22,091
+Fold 4: train_size=403299, val_size=100824 - 2026-04-05 16:07:22,091
+Fold 5: train_size=403299, val_size=100824 - 2026-04-05 16:07:22,091
+K-fold splits saved to D:\SPAN\5fold_splits_round_5.pkl - 2026-04-05 16:07:22,112
+========== Round 5 data splits creation completed - 2026-04-05 16:07:22 ========== - 2026-04-05 16:07:22,112
+========== Round 6 - Creating 5-fold data splits - 2026-04-05 16:07:30 ========== - 2026-04-05 16:07:30,577
+Loading miRNA-disease association data to determine dataset size... - 2026-04-05 16:07:30,577
+Total samples in dataset: 504123 - 2026-04-05 16:07:32,028
+Generating 5-fold cross-validation splits (random seed: 48)... - 2026-04-05 16:07:32,030
+Fold 1: train_size=403298, val_size=100825 - 2026-04-05 16:07:32,105
+Fold 2: train_size=403298, val_size=100825 - 2026-04-05 16:07:32,105
+Fold 3: train_size=403298, val_size=100825 - 2026-04-05 16:07:32,105
+Fold 4: train_size=403299, val_size=100824 - 2026-04-05 16:07:32,106
+Fold 5: train_size=403299, val_size=100824 - 2026-04-05 16:07:32,106
+K-fold splits saved to D:\SPAN\5fold_splits_round_6.pkl - 2026-04-05 16:07:32,127
+========== Round 6 data splits creation completed - 2026-04-05 16:07:32 ========== - 2026-04-05 16:07:32,127
+========== Round 7 - Creating 5-fold data splits - 2026-04-05 16:07:39 ========== - 2026-04-05 16:07:39,078
+Loading miRNA-disease association data to determine dataset size... - 2026-04-05 16:07:39,078
+Total samples in dataset: 504123 - 2026-04-05 16:07:40,514
+Generating 5-fold cross-validation splits (random seed: 49)... - 2026-04-05 16:07:40,515
+Fold 1: train_size=403298, val_size=100825 - 2026-04-05 16:07:40,598
+Fold 2: train_size=403298, val_size=100825 - 2026-04-05 16:07:40,598
+Fold 3: train_size=403298, val_size=100825 - 2026-04-05 16:07:40,598
+Fold 4: train_size=403299, val_size=100824 - 2026-04-05 16:07:40,599
+Fold 5: train_size=403299, val_size=100824 - 2026-04-05 16:07:40,599
+K-fold splits saved to D:\SPAN\5fold_splits_round_7.pkl - 2026-04-05 16:07:40,617
+========== Round 7 data splits creation completed - 2026-04-05 16:07:40 ========== - 2026-04-05 16:07:40,617
+========== Round 8 - Creating 5-fold data splits - 2026-04-05 16:07:48 ========== - 2026-04-05 16:07:48,620
+Loading miRNA-disease association data to determine dataset size... - 2026-04-05 16:07:48,620
+Total samples in dataset: 504123 - 2026-04-05 16:07:50,060
+Generating 5-fold cross-validation splits (random seed: 50)... - 2026-04-05 16:07:50,061
+Fold 1: train_size=403298, val_size=100825 - 2026-04-05 16:07:50,137
+Fold 2: train_size=403298, val_size=100825 - 2026-04-05 16:07:50,137
+Fold 3: train_size=403298, val_size=100825 - 2026-04-05 16:07:50,137
+Fold 4: train_size=403299, val_size=100824 - 2026-04-05 16:07:50,138
+Fold 5: train_size=403299, val_size=100824 - 2026-04-05 16:07:50,138
+K-fold splits saved to D:\SPAN\5fold_splits_round_8.pkl - 2026-04-05 16:07:50,158
+========== Round 8 data splits creation completed - 2026-04-05 16:07:50 ========== - 2026-04-05 16:07:50,158
+========== Round 9 - Creating 5-fold data splits - 2026-04-05 16:07:58 ========== - 2026-04-05 16:07:58,922
+Loading miRNA-disease association data to determine dataset size... - 2026-04-05 16:07:58,922
+Total samples in dataset: 504123 - 2026-04-05 16:08:00,355
+Generating 5-fold cross-validation splits (random seed: 51)... - 2026-04-05 16:08:00,356
+Fold 1: train_size=403298, val_size=100825 - 2026-04-05 16:08:00,434
+Fold 2: train_size=403298, val_size=100825 - 2026-04-05 16:08:00,434
+Fold 3: train_size=403298, val_size=100825 - 2026-04-05 16:08:00,434
+Fold 4: train_size=403299, val_size=100824 - 2026-04-05 16:08:00,434
+Fold 5: train_size=403299, val_size=100824 - 2026-04-05 16:08:00,435
+K-fold splits saved to D:\SPAN\5fold_splits_round_9.pkl - 2026-04-05 16:08:00,454
+========== Round 9 data splits creation completed - 2026-04-05 16:08:00 ========== - 2026-04-05 16:08:00,454
+

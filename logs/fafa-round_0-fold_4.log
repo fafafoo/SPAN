@@ -1,0 +1,826 @@
+Logging for round 0, fold 4 configured to file: D:\SPAN\logs\fafa-round_0-fold_4.log - 2026-03-28 21:25:37
+========== Round 0 - Fold 4 Training ==========
+current_sys_path: D:\SPAN
+device = cuda
+Global seed initialized to 42 for reproducibility
+Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Starting fold 4 in 5-folds
+Training data - Positive samples: tensor([45023.]), Negative samples: tensor([392092.])
+Fold 4, Epoch: 1/1000, Batch: 854, Loss: 0.0241
+Fold 4, Epoch 1/1000, Average Train Loss: 0.0308, LR: 0.000200
+Fold 4, Epoch 1, Current decision threshold: 0.2000
+Fold 4, Epoch 1/1000, Validation Loss: 0.0115, Accuracy: 0.7397
+Fold 4, Epoch 1/1000, Precision: 0.0882, Recall: 0.9941, F1-Score: 0.1620, AUC: 0.9623, AUPR: 0.3645
+New best model saved, F1: 0.1620, AUC: 0.9623, AUPR: 0.3645
+Fold 4, Epoch: 2/1000, Batch: 854, Loss: 0.0119
+Fold 4, Epoch 2/1000, Average Train Loss: 0.0169, LR: 0.000200
+Fold 4, Epoch 2, Current decision threshold: 0.2000
+Fold 4, Epoch 2/1000, Validation Loss: 0.0081, Accuracy: 0.9697
+Fold 4, Epoch 2/1000, Precision: 0.4484, Recall: 0.8652, F1-Score: 0.5907, AUC: 0.9858, AUPR: 0.5699
+New best model saved, F1: 0.5907, AUC: 0.9858, AUPR: 0.5699
+Fold 4, Epoch: 3/1000, Batch: 854, Loss: 0.0115
+Fold 4, Epoch 3/1000, Average Train Loss: 0.0129, LR: 0.000200
+Fold 4, Epoch 3, Current decision threshold: 0.2000
+Fold 4, Epoch 3/1000, Validation Loss: 0.0073, Accuracy: 0.9768
+Fold 4, Epoch 3/1000, Precision: 0.5248, Recall: 0.8793, F1-Score: 0.6573, AUC: 0.9900, AUPR: 0.6548
+New best model saved, F1: 0.6573, AUC: 0.9900, AUPR: 0.6548
+Fold 4, Epoch: 4/1000, Batch: 854, Loss: 0.0075
+Fold 4, Epoch 4/1000, Average Train Loss: 0.0112, LR: 0.000200
+Fold 4, Epoch 4, Current decision threshold: 0.2000
+Fold 4, Epoch 4/1000, Validation Loss: 0.0058, Accuracy: 0.9832
+Fold 4, Epoch 4/1000, Precision: 0.6102, Recall: 0.9279, F1-Score: 0.7362, AUC: 0.9941, AUPR: 0.7582
+New best model saved, F1: 0.7362, AUC: 0.9941, AUPR: 0.7582
+Fold 4, Epoch: 5/1000, Batch: 854, Loss: 0.0113
+Fold 4, Epoch 5/1000, Average Train Loss: 0.0101, LR: 0.000200
+Epoch 5: Optimal threshold updated to = 0.1763
+Fold 4, Epoch 5, Current decision threshold: 0.1763
+Fold 4, Epoch 5/1000, Validation Loss: 0.0072, Accuracy: 0.9874
+Fold 4, Epoch 5/1000, Precision: 0.6943, Recall: 0.9000, F1-Score: 0.7839, AUC: 0.9951, AUPR: 0.7876
+New best model saved, F1: 0.7839, AUC: 0.9951, AUPR: 0.7876
+Fold 4, Epoch: 6/1000, Batch: 854, Loss: 0.0098
+Fold 4, Epoch 6/1000, Average Train Loss: 0.0092, LR: 0.000200
+Fold 4, Epoch 6, Current decision threshold: 0.1763
+Fold 4, Epoch 6/1000, Validation Loss: 0.0075, Accuracy: 0.9885
+Fold 4, Epoch 6/1000, Precision: 0.7204, Recall: 0.8906, F1-Score: 0.7965, AUC: 0.9955, AUPR: 0.7983
+New best model saved, F1: 0.7965, AUC: 0.9955, AUPR: 0.7983
+Fold 4, Epoch: 7/1000, Batch: 854, Loss: 0.0101
+Fold 4, Epoch 7/1000, Average Train Loss: 0.0086, LR: 0.000200
+Fold 4, Epoch 7, Current decision threshold: 0.1763
+Fold 4, Epoch 7/1000, Validation Loss: 0.0070, Accuracy: 0.9899
+Fold 4, Epoch 7/1000, Precision: 0.7529, Recall: 0.8946, F1-Score: 0.8176, AUC: 0.9962, AUPR: 0.8302
+New best model saved, F1: 0.8176, AUC: 0.9962, AUPR: 0.8302
+Fold 4, Epoch: 8/1000, Batch: 854, Loss: 0.0096
+Fold 4, Epoch 8/1000, Average Train Loss: 0.0080, LR: 0.000200
+Fold 4, Epoch 8, Current decision threshold: 0.1763
+Fold 4, Epoch 8/1000, Validation Loss: 0.0066, Accuracy: 0.9908
+Fold 4, Epoch 8/1000, Precision: 0.7723, Recall: 0.9016, F1-Score: 0.8320, AUC: 0.9967, AUPR: 0.8469
+New best model saved, F1: 0.8320, AUC: 0.9967, AUPR: 0.8469
+Fold 4, Epoch: 9/1000, Batch: 854, Loss: 0.0109
+Fold 4, Epoch 9/1000, Average Train Loss: 0.0077, LR: 0.000200
+Fold 4, Epoch 9, Current decision threshold: 0.1763
+Fold 4, Epoch 9/1000, Validation Loss: 0.0077, Accuracy: 0.9918
+Fold 4, Epoch 9/1000, Precision: 0.8208, Recall: 0.8636, F1-Score: 0.8416, AUC: 0.9971, AUPR: 0.8632
+New best model saved, F1: 0.8416, AUC: 0.9971, AUPR: 0.8632
+Fold 4, Epoch: 10/1000, Batch: 854, Loss: 0.0058
+Fold 4, Epoch 10/1000, Average Train Loss: 0.0073, LR: 0.000200
+Epoch 10: Optimal threshold updated to = 0.1570
+Fold 4, Epoch 10, Current decision threshold: 0.1570
+Fold 4, Epoch 10/1000, Validation Loss: 0.0066, Accuracy: 0.9923
+Fold 4, Epoch 10/1000, Precision: 0.8036, Recall: 0.9208, F1-Score: 0.8582, AUC: 0.9973, AUPR: 0.8727
+New best model saved, F1: 0.8582, AUC: 0.9973, AUPR: 0.8727
+Fold 4, Epoch: 11/1000, Batch: 854, Loss: 0.0062
+Fold 4, Epoch 11/1000, Average Train Loss: 0.0070, LR: 0.000200
+Fold 4, Epoch 11, Current decision threshold: 0.1570
+Fold 4, Epoch 11/1000, Validation Loss: 0.0060, Accuracy: 0.9917
+Fold 4, Epoch 11/1000, Precision: 0.7865, Recall: 0.9228, F1-Score: 0.8492, AUC: 0.9973, AUPR: 0.8763
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 12/1000, Batch: 854, Loss: 0.0071
+Fold 4, Epoch 12/1000, Average Train Loss: 0.0067, LR: 0.000200
+Fold 4, Epoch 12, Current decision threshold: 0.1570
+Fold 4, Epoch 12/1000, Validation Loss: 0.0071, Accuracy: 0.9924
+Fold 4, Epoch 12/1000, Precision: 0.8181, Recall: 0.8989, F1-Score: 0.8566, AUC: 0.9974, AUPR: 0.8743
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 13/1000, Batch: 854, Loss: 0.0067
+Fold 4, Epoch 13/1000, Average Train Loss: 0.0064, LR: 0.000200
+Fold 4, Epoch 13, Current decision threshold: 0.1570
+Fold 4, Epoch 13/1000, Validation Loss: 0.0071, Accuracy: 0.9927
+Fold 4, Epoch 13/1000, Precision: 0.8310, Recall: 0.8906, F1-Score: 0.8598, AUC: 0.9975, AUPR: 0.8833
+New best model saved, F1: 0.8598, AUC: 0.9975, AUPR: 0.8833
+Fold 4, Epoch: 14/1000, Batch: 854, Loss: 0.0066
+Fold 4, Epoch 14/1000, Average Train Loss: 0.0061, LR: 0.000200
+Fold 4, Epoch 14, Current decision threshold: 0.1570
+Fold 4, Epoch 14/1000, Validation Loss: 0.0073, Accuracy: 0.9930
+Fold 4, Epoch 14/1000, Precision: 0.8437, Recall: 0.8887, F1-Score: 0.8656, AUC: 0.9977, AUPR: 0.8914
+New best model saved, F1: 0.8656, AUC: 0.9977, AUPR: 0.8914
+Fold 4, Epoch: 15/1000, Batch: 854, Loss: 0.0079
+Fold 4, Epoch 15/1000, Average Train Loss: 0.0060, LR: 0.000200
+Epoch 15: Optimal threshold updated to = 0.1694
+Fold 4, Epoch 15, Current decision threshold: 0.1694
+Fold 4, Epoch 15/1000, Validation Loss: 0.0066, Accuracy: 0.9932
+Fold 4, Epoch 15/1000, Precision: 0.8420, Recall: 0.8981, F1-Score: 0.8691, AUC: 0.9976, AUPR: 0.8889
+New best model saved, F1: 0.8691, AUC: 0.9976, AUPR: 0.8889
+Fold 4, Epoch: 16/1000, Batch: 854, Loss: 0.0034
+Fold 4, Epoch 16/1000, Average Train Loss: 0.0058, LR: 0.000200
+Fold 4, Epoch 16, Current decision threshold: 0.1694
+Fold 4, Epoch 16/1000, Validation Loss: 0.0056, Accuracy: 0.9936
+Fold 4, Epoch 16/1000, Precision: 0.8370, Recall: 0.9283, F1-Score: 0.8803, AUC: 0.9978, AUPR: 0.8978
+New best model saved, F1: 0.8803, AUC: 0.9978, AUPR: 0.8978
+Fold 4, Epoch: 17/1000, Batch: 854, Loss: 0.0062
+Fold 4, Epoch 17/1000, Average Train Loss: 0.0056, LR: 0.000200
+Fold 4, Epoch 17, Current decision threshold: 0.1694
+Fold 4, Epoch 17/1000, Validation Loss: 0.0074, Accuracy: 0.9938
+Fold 4, Epoch 17/1000, Precision: 0.8731, Recall: 0.8816, F1-Score: 0.8773, AUC: 0.9979, AUPR: 0.9007
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 18/1000, Batch: 854, Loss: 0.0076
+Fold 4, Epoch 18/1000, Average Train Loss: 0.0055, LR: 0.000200
+Fold 4, Epoch 18, Current decision threshold: 0.1694
+Fold 4, Epoch 18/1000, Validation Loss: 0.0067, Accuracy: 0.9939
+Fold 4, Epoch 18/1000, Precision: 0.8658, Recall: 0.8977, F1-Score: 0.8814, AUC: 0.9978, AUPR: 0.8964
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 19/1000, Batch: 854, Loss: 0.0026
+Fold 4, Epoch 19/1000, Average Train Loss: 0.0053, LR: 0.000200
+Fold 4, Epoch 19, Current decision threshold: 0.1694
+Fold 4, Epoch 19/1000, Validation Loss: 0.0082, Accuracy: 0.9935
+Fold 4, Epoch 19/1000, Precision: 0.8854, Recall: 0.8542, F1-Score: 0.8695, AUC: 0.9979, AUPR: 0.9030
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 20/1000, Batch: 854, Loss: 0.0040
+Fold 4, Epoch 20/1000, Average Train Loss: 0.0052, LR: 0.000200
+Epoch 20: Optimal threshold updated to = 0.1128
+Fold 4, Epoch 20, Current decision threshold: 0.1128
+Fold 4, Epoch 20/1000, Validation Loss: 0.0081, Accuracy: 0.9941
+Fold 4, Epoch 20/1000, Precision: 0.8618, Recall: 0.9145, F1-Score: 0.8874, AUC: 0.9980, AUPR: 0.9085
+New best model saved, F1: 0.8874, AUC: 0.9980, AUPR: 0.9085
+Fold 4, Epoch: 21/1000, Batch: 854, Loss: 0.0038
+Fold 4, Epoch 21/1000, Average Train Loss: 0.0051, LR: 0.000200
+Fold 4, Epoch 21, Current decision threshold: 0.1128
+Fold 4, Epoch 21/1000, Validation Loss: 0.0070, Accuracy: 0.9940
+Fold 4, Epoch 21/1000, Precision: 0.8481, Recall: 0.9298, F1-Score: 0.8871, AUC: 0.9980, AUPR: 0.9083
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 22/1000, Batch: 854, Loss: 0.0039
+Fold 4, Epoch 22/1000, Average Train Loss: 0.0048, LR: 0.000200
+Fold 4, Epoch 22, Current decision threshold: 0.1128
+Fold 4, Epoch 22/1000, Validation Loss: 0.0087, Accuracy: 0.9943
+Fold 4, Epoch 22/1000, Precision: 0.8811, Recall: 0.8946, F1-Score: 0.8878, AUC: 0.9981, AUPR: 0.9104
+New best model saved, F1: 0.8878, AUC: 0.9981, AUPR: 0.9104
+Fold 4, Epoch: 23/1000, Batch: 854, Loss: 0.0039
+Fold 4, Epoch 23/1000, Average Train Loss: 0.0047, LR: 0.000200
+Fold 4, Epoch 23, Current decision threshold: 0.1128
+Fold 4, Epoch 23/1000, Validation Loss: 0.0080, Accuracy: 0.9945
+Fold 4, Epoch 23/1000, Precision: 0.8744, Recall: 0.9142, F1-Score: 0.8938, AUC: 0.9981, AUPR: 0.9109
+New best model saved, F1: 0.8938, AUC: 0.9981, AUPR: 0.9109
+Fold 4, Epoch: 24/1000, Batch: 854, Loss: 0.0040
+Fold 4, Epoch 24/1000, Average Train Loss: 0.0046, LR: 0.000200
+Fold 4, Epoch 24, Current decision threshold: 0.1128
+Fold 4, Epoch 24/1000, Validation Loss: 0.0060, Accuracy: 0.9941
+Fold 4, Epoch 24/1000, Precision: 0.8436, Recall: 0.9408, F1-Score: 0.8895, AUC: 0.9982, AUPR: 0.9240
+New best model saved, F1: 0.8895, AUC: 0.9982, AUPR: 0.9240
+Fold 4, Epoch: 25/1000, Batch: 854, Loss: 0.0051
+Fold 4, Epoch 25/1000, Average Train Loss: 0.0046, LR: 0.000200
+Epoch 25: Optimal threshold updated to = 0.0977
+Fold 4, Epoch 25, Current decision threshold: 0.0977
+Fold 4, Epoch 25/1000, Validation Loss: 0.0077, Accuracy: 0.9946
+Fold 4, Epoch 25/1000, Precision: 0.8648, Recall: 0.9306, F1-Score: 0.8965, AUC: 0.9982, AUPR: 0.9190
+New best model saved, F1: 0.8965, AUC: 0.9982, AUPR: 0.9190
+Fold 4, Epoch: 26/1000, Batch: 854, Loss: 0.0035
+Fold 4, Epoch 26/1000, Average Train Loss: 0.0044, LR: 0.000200
+Fold 4, Epoch 26, Current decision threshold: 0.0977
+Fold 4, Epoch 26/1000, Validation Loss: 0.0084, Accuracy: 0.9945
+Fold 4, Epoch 26/1000, Precision: 0.8754, Recall: 0.9114, F1-Score: 0.8930, AUC: 0.9982, AUPR: 0.9217
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 27/1000, Batch: 854, Loss: 0.0046
+Fold 4, Epoch 27/1000, Average Train Loss: 0.0044, LR: 0.000200
+Fold 4, Epoch 27, Current decision threshold: 0.0977
+Fold 4, Epoch 27/1000, Validation Loss: 0.0073, Accuracy: 0.9947
+Fold 4, Epoch 27/1000, Precision: 0.8656, Recall: 0.9345, F1-Score: 0.8988, AUC: 0.9984, AUPR: 0.9270
+New best model saved, F1: 0.8988, AUC: 0.9984, AUPR: 0.9270
+Fold 4, Epoch: 28/1000, Batch: 854, Loss: 0.0032
+Fold 4, Epoch 28/1000, Average Train Loss: 0.0043, LR: 0.000200
+Fold 4, Epoch 28, Current decision threshold: 0.0977
+Fold 4, Epoch 28/1000, Validation Loss: 0.0091, Accuracy: 0.9948
+Fold 4, Epoch 28/1000, Precision: 0.8900, Recall: 0.9071, F1-Score: 0.8985, AUC: 0.9982, AUPR: 0.9207
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 29/1000, Batch: 854, Loss: 0.0030
+Fold 4, Epoch 29/1000, Average Train Loss: 0.0042, LR: 0.000200
+Fold 4, Epoch 29, Current decision threshold: 0.0977
+Fold 4, Epoch 29/1000, Validation Loss: 0.0066, Accuracy: 0.9945
+Fold 4, Epoch 29/1000, Precision: 0.8547, Recall: 0.9428, F1-Score: 0.8966, AUC: 0.9982, AUPR: 0.9240
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 30/1000, Batch: 854, Loss: 0.0021
+Fold 4, Epoch 30/1000, Average Train Loss: 0.0041, LR: 0.000200
+Epoch 30: Optimal threshold updated to = 0.1184
+Fold 4, Epoch 30, Current decision threshold: 0.1184
+Fold 4, Epoch 30/1000, Validation Loss: 0.0071, Accuracy: 0.9948
+Fold 4, Epoch 30/1000, Precision: 0.8825, Recall: 0.9157, F1-Score: 0.8988, AUC: 0.9984, AUPR: 0.9322
+New best model saved, F1: 0.8988, AUC: 0.9984, AUPR: 0.9322
+Fold 4, Epoch: 31/1000, Batch: 854, Loss: 0.0043
+Fold 4, Epoch 31/1000, Average Train Loss: 0.0040, LR: 0.000200
+Fold 4, Epoch 31, Current decision threshold: 0.1184
+Fold 4, Epoch 31/1000, Validation Loss: 0.0075, Accuracy: 0.9947
+Fold 4, Epoch 31/1000, Precision: 0.8867, Recall: 0.9051, F1-Score: 0.8958, AUC: 0.9983, AUPR: 0.9269
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 32/1000, Batch: 854, Loss: 0.0025
+Fold 4, Epoch 32/1000, Average Train Loss: 0.0039, LR: 0.000200
+Fold 4, Epoch 32, Current decision threshold: 0.1184
+Fold 4, Epoch 32/1000, Validation Loss: 0.0072, Accuracy: 0.9949
+Fold 4, Epoch 32/1000, Precision: 0.8900, Recall: 0.9130, F1-Score: 0.9013, AUC: 0.9984, AUPR: 0.9318
+New best model saved, F1: 0.9013, AUC: 0.9984, AUPR: 0.9318
+Fold 4, Epoch: 33/1000, Batch: 854, Loss: 0.0036
+Fold 4, Epoch 33/1000, Average Train Loss: 0.0039, LR: 0.000200
+Fold 4, Epoch 33, Current decision threshold: 0.1184
+Fold 4, Epoch 33/1000, Validation Loss: 0.0080, Accuracy: 0.9949
+Fold 4, Epoch 33/1000, Precision: 0.9001, Recall: 0.8973, F1-Score: 0.8987, AUC: 0.9984, AUPR: 0.9331
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 34/1000, Batch: 854, Loss: 0.0047
+Fold 4, Epoch 34/1000, Average Train Loss: 0.0039, LR: 0.000200
+Fold 4, Epoch 34, Current decision threshold: 0.1184
+Fold 4, Epoch 34/1000, Validation Loss: 0.0064, Accuracy: 0.9951
+Fold 4, Epoch 34/1000, Precision: 0.8846, Recall: 0.9283, F1-Score: 0.9059, AUC: 0.9985, AUPR: 0.9365
+New best model saved, F1: 0.9059, AUC: 0.9985, AUPR: 0.9365
+Fold 4, Epoch: 35/1000, Batch: 854, Loss: 0.0058
+Fold 4, Epoch 35/1000, Average Train Loss: 0.0038, LR: 0.000200
+Epoch 35: Optimal threshold updated to = 0.1177
+Fold 4, Epoch 35, Current decision threshold: 0.1177
+Fold 4, Epoch 35/1000, Validation Loss: 0.0056, Accuracy: 0.9950
+Fold 4, Epoch 35/1000, Precision: 0.8700, Recall: 0.9416, F1-Score: 0.9044, AUC: 0.9985, AUPR: 0.9365
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 36/1000, Batch: 854, Loss: 0.0049
+Fold 4, Epoch 36/1000, Average Train Loss: 0.0037, LR: 0.000200
+Fold 4, Epoch 36, Current decision threshold: 0.1177
+Fold 4, Epoch 36/1000, Validation Loss: 0.0065, Accuracy: 0.9948
+Fold 4, Epoch 36/1000, Precision: 0.8762, Recall: 0.9263, F1-Score: 0.9005, AUC: 0.9984, AUPR: 0.9352
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 37/1000, Batch: 854, Loss: 0.0052
+Fold 4, Epoch 37/1000, Average Train Loss: 0.0037, LR: 0.000200
+Fold 4, Epoch 37, Current decision threshold: 0.1177
+Fold 4, Epoch 37/1000, Validation Loss: 0.0063, Accuracy: 0.9949
+Fold 4, Epoch 37/1000, Precision: 0.8797, Recall: 0.9263, F1-Score: 0.9024, AUC: 0.9985, AUPR: 0.9379
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 38/1000, Batch: 854, Loss: 0.0023
+Fold 4, Epoch 38/1000, Average Train Loss: 0.0036, LR: 0.000200
+Fold 4, Epoch 38, Current decision threshold: 0.1177
+Fold 4, Epoch 38/1000, Validation Loss: 0.0075, Accuracy: 0.9951
+Fold 4, Epoch 38/1000, Precision: 0.8977, Recall: 0.9118, F1-Score: 0.9047, AUC: 0.9985, AUPR: 0.9376
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 39/1000, Batch: 854, Loss: 0.0018
+Fold 4, Epoch 39/1000, Average Train Loss: 0.0035, LR: 0.000200
+Fold 4, Epoch 39, Current decision threshold: 0.1177
+Fold 4, Epoch 39/1000, Validation Loss: 0.0079, Accuracy: 0.9952
+Fold 4, Epoch 39/1000, Precision: 0.9098, Recall: 0.9016, F1-Score: 0.9057, AUC: 0.9986, AUPR: 0.9394
+New best model saved, F1: 0.9057, AUC: 0.9986, AUPR: 0.9394
+Fold 4, Epoch: 40/1000, Batch: 854, Loss: 0.0023
+Fold 4, Epoch 40/1000, Average Train Loss: 0.0035, LR: 0.000200
+Epoch 40: Optimal threshold updated to = 0.0628
+Fold 4, Epoch 40, Current decision threshold: 0.0628
+Fold 4, Epoch 40/1000, Validation Loss: 0.0088, Accuracy: 0.9953
+Fold 4, Epoch 40/1000, Precision: 0.8807, Recall: 0.9408, F1-Score: 0.9098, AUC: 0.9985, AUPR: 0.9408
+New best model saved, F1: 0.9098, AUC: 0.9985, AUPR: 0.9408
+Fold 4, Epoch: 41/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 41/1000, Average Train Loss: 0.0034, LR: 0.000200
+Fold 4, Epoch 41, Current decision threshold: 0.0628
+Fold 4, Epoch 41/1000, Validation Loss: 0.0076, Accuracy: 0.9949
+Fold 4, Epoch 41/1000, Precision: 0.8646, Recall: 0.9459, F1-Score: 0.9034, AUC: 0.9986, AUPR: 0.9421
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 42/1000, Batch: 854, Loss: 0.0025
+Fold 4, Epoch 42/1000, Average Train Loss: 0.0034, LR: 0.000200
+Fold 4, Epoch 42, Current decision threshold: 0.0628
+Fold 4, Epoch 42/1000, Validation Loss: 0.0072, Accuracy: 0.9947
+Fold 4, Epoch 42/1000, Precision: 0.8524, Recall: 0.9553, F1-Score: 0.9009, AUC: 0.9985, AUPR: 0.9373
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 43/1000, Batch: 854, Loss: 0.0039
+Fold 4, Epoch 43/1000, Average Train Loss: 0.0033, LR: 0.000200
+Fold 4, Epoch 43, Current decision threshold: 0.0628
+Fold 4, Epoch 43/1000, Validation Loss: 0.0081, Accuracy: 0.9953
+Fold 4, Epoch 43/1000, Precision: 0.8766, Recall: 0.9471, F1-Score: 0.9105, AUC: 0.9986, AUPR: 0.9420
+New best model saved, F1: 0.9105, AUC: 0.9986, AUPR: 0.9420
+Fold 4, Epoch: 44/1000, Batch: 854, Loss: 0.0024
+Fold 4, Epoch 44/1000, Average Train Loss: 0.0033, LR: 0.000200
+Fold 4, Epoch 44, Current decision threshold: 0.0628
+Fold 4, Epoch 44/1000, Validation Loss: 0.0075, Accuracy: 0.9950
+Fold 4, Epoch 44/1000, Precision: 0.8679, Recall: 0.9475, F1-Score: 0.9059, AUC: 0.9986, AUPR: 0.9407
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 45/1000, Batch: 854, Loss: 0.0018
+Fold 4, Epoch 45/1000, Average Train Loss: 0.0032, LR: 0.000200
+Epoch 45: Optimal threshold updated to = 0.0949
+Fold 4, Epoch 45, Current decision threshold: 0.0949
+Fold 4, Epoch 45/1000, Validation Loss: 0.0077, Accuracy: 0.9954
+Fold 4, Epoch 45/1000, Precision: 0.9001, Recall: 0.9216, F1-Score: 0.9107, AUC: 0.9986, AUPR: 0.9446
+New best model saved, F1: 0.9107, AUC: 0.9986, AUPR: 0.9446
+Fold 4, Epoch: 46/1000, Batch: 854, Loss: 0.0025
+Fold 4, Epoch 46/1000, Average Train Loss: 0.0033, LR: 0.000200
+Fold 4, Epoch 46, Current decision threshold: 0.0949
+Fold 4, Epoch 46/1000, Validation Loss: 0.0082, Accuracy: 0.9954
+Fold 4, Epoch 46/1000, Precision: 0.9010, Recall: 0.9204, F1-Score: 0.9106, AUC: 0.9985, AUPR: 0.9424
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 47/1000, Batch: 854, Loss: 0.0039
+Fold 4, Epoch 47/1000, Average Train Loss: 0.0032, LR: 0.000200
+Fold 4, Epoch 47, Current decision threshold: 0.0949
+Fold 4, Epoch 47/1000, Validation Loss: 0.0071, Accuracy: 0.9957
+Fold 4, Epoch 47/1000, Precision: 0.8987, Recall: 0.9357, F1-Score: 0.9168, AUC: 0.9987, AUPR: 0.9476
+New best model saved, F1: 0.9168, AUC: 0.9987, AUPR: 0.9476
+Fold 4, Epoch: 48/1000, Batch: 854, Loss: 0.0016
+Fold 4, Epoch 48/1000, Average Train Loss: 0.0031, LR: 0.000200
+Fold 4, Epoch 48, Current decision threshold: 0.0949
+Fold 4, Epoch 48/1000, Validation Loss: 0.0086, Accuracy: 0.9951
+Fold 4, Epoch 48/1000, Precision: 0.9042, Recall: 0.9028, F1-Score: 0.9035, AUC: 0.9986, AUPR: 0.9406
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 49/1000, Batch: 854, Loss: 0.0033
+Fold 4, Epoch 49/1000, Average Train Loss: 0.0031, LR: 0.000200
+Fold 4, Epoch 49, Current decision threshold: 0.0949
+Fold 4, Epoch 49/1000, Validation Loss: 0.0079, Accuracy: 0.9956
+Fold 4, Epoch 49/1000, Precision: 0.9067, Recall: 0.9220, F1-Score: 0.9143, AUC: 0.9986, AUPR: 0.9419
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 50/1000, Batch: 854, Loss: 0.0024
+Fold 4, Epoch 50/1000, Average Train Loss: 0.0031, LR: 0.000200
+Epoch 50: Optimal threshold updated to = 0.1044
+Fold 4, Epoch 50, Current decision threshold: 0.1044
+Fold 4, Epoch 50/1000, Validation Loss: 0.0070, Accuracy: 0.9956
+Fold 4, Epoch 50/1000, Precision: 0.8975, Recall: 0.9306, F1-Score: 0.9138, AUC: 0.9986, AUPR: 0.9423
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 51/1000, Batch: 854, Loss: 0.0029
+Fold 4, Epoch 51/1000, Average Train Loss: 0.0030, LR: 0.000200
+Fold 4, Epoch 51, Current decision threshold: 0.1044
+Fold 4, Epoch 51/1000, Validation Loss: 0.0071, Accuracy: 0.9956
+Fold 4, Epoch 51/1000, Precision: 0.9043, Recall: 0.9220, F1-Score: 0.9130, AUC: 0.9987, AUPR: 0.9474
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 52/1000, Batch: 854, Loss: 0.0017
+Fold 4, Epoch 52/1000, Average Train Loss: 0.0025, LR: 0.000100
+Fold 4, Epoch 52, Current decision threshold: 0.1044
+Fold 4, Epoch 52/1000, Validation Loss: 0.0059, Accuracy: 0.9960
+Fold 4, Epoch 52/1000, Precision: 0.8988, Recall: 0.9467, F1-Score: 0.9221, AUC: 0.9987, AUPR: 0.9504
+New best model saved, F1: 0.9221, AUC: 0.9987, AUPR: 0.9504
+Fold 4, Epoch: 53/1000, Batch: 854, Loss: 0.0024
+Fold 4, Epoch 53/1000, Average Train Loss: 0.0025, LR: 0.000100
+Fold 4, Epoch 53, Current decision threshold: 0.1044
+Fold 4, Epoch 53/1000, Validation Loss: 0.0071, Accuracy: 0.9960
+Fold 4, Epoch 53/1000, Precision: 0.9178, Recall: 0.9240, F1-Score: 0.9209, AUC: 0.9988, AUPR: 0.9489
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 54/1000, Batch: 854, Loss: 0.0019
+Fold 4, Epoch 54/1000, Average Train Loss: 0.0024, LR: 0.000100
+Fold 4, Epoch 54, Current decision threshold: 0.1044
+Fold 4, Epoch 54/1000, Validation Loss: 0.0080, Accuracy: 0.9958
+Fold 4, Epoch 54/1000, Precision: 0.9238, Recall: 0.9079, F1-Score: 0.9158, AUC: 0.9988, AUPR: 0.9522
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 55/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 55/1000, Average Train Loss: 0.0024, LR: 0.000100
+Epoch 55: Optimal threshold updated to = 0.1167
+Fold 4, Epoch 55, Current decision threshold: 0.1167
+Fold 4, Epoch 55/1000, Validation Loss: 0.0065, Accuracy: 0.9959
+Fold 4, Epoch 55/1000, Precision: 0.9136, Recall: 0.9247, F1-Score: 0.9192, AUC: 0.9988, AUPR: 0.9520
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 56/1000, Batch: 854, Loss: 0.0016
+Fold 4, Epoch 56/1000, Average Train Loss: 0.0024, LR: 0.000100
+Fold 4, Epoch 56, Current decision threshold: 0.1167
+Fold 4, Epoch 56/1000, Validation Loss: 0.0072, Accuracy: 0.9957
+Fold 4, Epoch 56/1000, Precision: 0.9200, Recall: 0.9110, F1-Score: 0.9155, AUC: 0.9988, AUPR: 0.9530
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 57/1000, Batch: 854, Loss: 0.0029
+Fold 4, Epoch 57/1000, Average Train Loss: 0.0023, LR: 0.000100
+Fold 4, Epoch 57, Current decision threshold: 0.1167
+Fold 4, Epoch 57/1000, Validation Loss: 0.0071, Accuracy: 0.9959
+Fold 4, Epoch 57/1000, Precision: 0.9187, Recall: 0.9173, F1-Score: 0.9180, AUC: 0.9988, AUPR: 0.9526
+No improvement, patience counter: 5/25
+Fold 4, Epoch: 58/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 58/1000, Average Train Loss: 0.0023, LR: 0.000100
+Fold 4, Epoch 58, Current decision threshold: 0.1167
+Fold 4, Epoch 58/1000, Validation Loss: 0.0071, Accuracy: 0.9956
+Fold 4, Epoch 58/1000, Precision: 0.9138, Recall: 0.9142, F1-Score: 0.9140, AUC: 0.9987, AUPR: 0.9495
+No improvement, patience counter: 6/25
+Fold 4, Epoch: 59/1000, Batch: 854, Loss: 0.0063
+Fold 4, Epoch 59/1000, Average Train Loss: 0.0023, LR: 0.000100
+Fold 4, Epoch 59, Current decision threshold: 0.1167
+Fold 4, Epoch 59/1000, Validation Loss: 0.0068, Accuracy: 0.9960
+Fold 4, Epoch 59/1000, Precision: 0.9251, Recall: 0.9157, F1-Score: 0.9204, AUC: 0.9988, AUPR: 0.9554
+New best model saved, F1: 0.9204, AUC: 0.9988, AUPR: 0.9554
+Fold 4, Epoch: 60/1000, Batch: 854, Loss: 0.0011
+Fold 4, Epoch 60/1000, Average Train Loss: 0.0023, LR: 0.000100
+Epoch 60: Optimal threshold updated to = 0.1033
+Fold 4, Epoch 60, Current decision threshold: 0.1033
+Fold 4, Epoch 60/1000, Validation Loss: 0.0064, Accuracy: 0.9959
+Fold 4, Epoch 60/1000, Precision: 0.9051, Recall: 0.9349, F1-Score: 0.9198, AUC: 0.9986, AUPR: 0.9481
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 61/1000, Batch: 854, Loss: 0.0021
+Fold 4, Epoch 61/1000, Average Train Loss: 0.0023, LR: 0.000100
+Fold 4, Epoch 61, Current decision threshold: 0.1033
+Fold 4, Epoch 61/1000, Validation Loss: 0.0080, Accuracy: 0.9959
+Fold 4, Epoch 61/1000, Precision: 0.9277, Recall: 0.9106, F1-Score: 0.9191, AUC: 0.9988, AUPR: 0.9525
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 62/1000, Batch: 854, Loss: 0.0043
+Fold 4, Epoch 62/1000, Average Train Loss: 0.0022, LR: 0.000100
+Fold 4, Epoch 62, Current decision threshold: 0.1033
+Fold 4, Epoch 62/1000, Validation Loss: 0.0067, Accuracy: 0.9959
+Fold 4, Epoch 62/1000, Precision: 0.9100, Recall: 0.9279, F1-Score: 0.9189, AUC: 0.9988, AUPR: 0.9543
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 63/1000, Batch: 854, Loss: 0.0022
+Fold 4, Epoch 63/1000, Average Train Loss: 0.0022, LR: 0.000100
+Fold 4, Epoch 63, Current decision threshold: 0.1033
+Fold 4, Epoch 63/1000, Validation Loss: 0.0068, Accuracy: 0.9958
+Fold 4, Epoch 63/1000, Precision: 0.9075, Recall: 0.9271, F1-Score: 0.9172, AUC: 0.9988, AUPR: 0.9544
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 64/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 64/1000, Average Train Loss: 0.0020, LR: 0.000050
+Fold 4, Epoch 64, Current decision threshold: 0.1033
+Fold 4, Epoch 64/1000, Validation Loss: 0.0074, Accuracy: 0.9958
+Fold 4, Epoch 64/1000, Precision: 0.9184, Recall: 0.9173, F1-Score: 0.9178, AUC: 0.9987, AUPR: 0.9512
+No improvement, patience counter: 5/25
+Fold 4, Epoch: 65/1000, Batch: 854, Loss: 0.0021
+Fold 4, Epoch 65/1000, Average Train Loss: 0.0020, LR: 0.000050
+Epoch 65: Optimal threshold updated to = 0.0574
+Fold 4, Epoch 65, Current decision threshold: 0.0574
+Fold 4, Epoch 65/1000, Validation Loss: 0.0079, Accuracy: 0.9961
+Fold 4, Epoch 65/1000, Precision: 0.9049, Recall: 0.9439, F1-Score: 0.9240, AUC: 0.9988, AUPR: 0.9547
+New best model saved, F1: 0.9240, AUC: 0.9988, AUPR: 0.9547
+Fold 4, Epoch: 66/1000, Batch: 854, Loss: 0.0011
+Fold 4, Epoch 66/1000, Average Train Loss: 0.0020, LR: 0.000050
+Fold 4, Epoch 66, Current decision threshold: 0.0574
+Fold 4, Epoch 66/1000, Validation Loss: 0.0068, Accuracy: 0.9958
+Fold 4, Epoch 66/1000, Precision: 0.8880, Recall: 0.9541, F1-Score: 0.9199, AUC: 0.9988, AUPR: 0.9562
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 67/1000, Batch: 854, Loss: 0.0021
+Fold 4, Epoch 67/1000, Average Train Loss: 0.0019, LR: 0.000050
+Fold 4, Epoch 67, Current decision threshold: 0.0574
+Fold 4, Epoch 67/1000, Validation Loss: 0.0062, Accuracy: 0.9956
+Fold 4, Epoch 67/1000, Precision: 0.8793, Recall: 0.9596, F1-Score: 0.9177, AUC: 0.9988, AUPR: 0.9556
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 68/1000, Batch: 854, Loss: 0.0024
+Fold 4, Epoch 68/1000, Average Train Loss: 0.0019, LR: 0.000050
+Fold 4, Epoch 68, Current decision threshold: 0.0574
+Fold 4, Epoch 68/1000, Validation Loss: 0.0072, Accuracy: 0.9957
+Fold 4, Epoch 68/1000, Precision: 0.8881, Recall: 0.9486, F1-Score: 0.9174, AUC: 0.9988, AUPR: 0.9536
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 69/1000, Batch: 854, Loss: 0.0018
+Fold 4, Epoch 69/1000, Average Train Loss: 0.0019, LR: 0.000050
+Fold 4, Epoch 69, Current decision threshold: 0.0574
+Fold 4, Epoch 69/1000, Validation Loss: 0.0067, Accuracy: 0.9960
+Fold 4, Epoch 69/1000, Precision: 0.8923, Recall: 0.9553, F1-Score: 0.9228, AUC: 0.9988, AUPR: 0.9560
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 70/1000, Batch: 854, Loss: 0.0011
+Fold 4, Epoch 70/1000, Average Train Loss: 0.0019, LR: 0.000050
+Epoch 70: Optimal threshold updated to = 0.0883
+Fold 4, Epoch 70, Current decision threshold: 0.0883
+Fold 4, Epoch 70/1000, Validation Loss: 0.0063, Accuracy: 0.9960
+Fold 4, Epoch 70/1000, Precision: 0.9056, Recall: 0.9400, F1-Score: 0.9225, AUC: 0.9988, AUPR: 0.9562
+No improvement, patience counter: 5/25
+Fold 4, Epoch: 71/1000, Batch: 854, Loss: 0.0015
+Fold 4, Epoch 71/1000, Average Train Loss: 0.0019, LR: 0.000050
+Fold 4, Epoch 71, Current decision threshold: 0.0883
+Fold 4, Epoch 71/1000, Validation Loss: 0.0062, Accuracy: 0.9960
+Fold 4, Epoch 71/1000, Precision: 0.9042, Recall: 0.9436, F1-Score: 0.9235, AUC: 0.9988, AUPR: 0.9576
+New best model saved, F1: 0.9235, AUC: 0.9988, AUPR: 0.9576
+Fold 4, Epoch: 72/1000, Batch: 854, Loss: 0.0017
+Fold 4, Epoch 72/1000, Average Train Loss: 0.0019, LR: 0.000050
+Fold 4, Epoch 72, Current decision threshold: 0.0883
+Fold 4, Epoch 72/1000, Validation Loss: 0.0065, Accuracy: 0.9961
+Fold 4, Epoch 72/1000, Precision: 0.9093, Recall: 0.9388, F1-Score: 0.9238, AUC: 0.9988, AUPR: 0.9554
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 73/1000, Batch: 854, Loss: 0.0010
+Fold 4, Epoch 73/1000, Average Train Loss: 0.0018, LR: 0.000050
+Fold 4, Epoch 73, Current decision threshold: 0.0883
+Fold 4, Epoch 73/1000, Validation Loss: 0.0067, Accuracy: 0.9961
+Fold 4, Epoch 73/1000, Precision: 0.9138, Recall: 0.9353, F1-Score: 0.9244, AUC: 0.9988, AUPR: 0.9587
+New best model saved, F1: 0.9244, AUC: 0.9988, AUPR: 0.9587
+Fold 4, Epoch: 74/1000, Batch: 854, Loss: 0.0013
+Fold 4, Epoch 74/1000, Average Train Loss: 0.0018, LR: 0.000050
+Fold 4, Epoch 74, Current decision threshold: 0.0883
+Fold 4, Epoch 74/1000, Validation Loss: 0.0070, Accuracy: 0.9959
+Fold 4, Epoch 74/1000, Precision: 0.9090, Recall: 0.9322, F1-Score: 0.9205, AUC: 0.9987, AUPR: 0.9530
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 75/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 75/1000, Average Train Loss: 0.0018, LR: 0.000050
+Epoch 75: Optimal threshold updated to = 0.0833
+Fold 4, Epoch 75, Current decision threshold: 0.0833
+Fold 4, Epoch 75/1000, Validation Loss: 0.0066, Accuracy: 0.9961
+Fold 4, Epoch 75/1000, Precision: 0.9069, Recall: 0.9428, F1-Score: 0.9245, AUC: 0.9988, AUPR: 0.9558
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 76/1000, Batch: 854, Loss: 0.0029
+Fold 4, Epoch 76/1000, Average Train Loss: 0.0018, LR: 0.000050
+Fold 4, Epoch 76, Current decision threshold: 0.0833
+Fold 4, Epoch 76/1000, Validation Loss: 0.0070, Accuracy: 0.9962
+Fold 4, Epoch 76/1000, Precision: 0.9144, Recall: 0.9385, F1-Score: 0.9263, AUC: 0.9988, AUPR: 0.9545
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 77/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 77/1000, Average Train Loss: 0.0018, LR: 0.000050
+Fold 4, Epoch 77, Current decision threshold: 0.0833
+Fold 4, Epoch 77/1000, Validation Loss: 0.0065, Accuracy: 0.9961
+Fold 4, Epoch 77/1000, Precision: 0.9066, Recall: 0.9432, F1-Score: 0.9245, AUC: 0.9989, AUPR: 0.9564
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 78/1000, Batch: 854, Loss: 0.0035
+Fold 4, Epoch 78/1000, Average Train Loss: 0.0017, LR: 0.000025
+Fold 4, Epoch 78, Current decision threshold: 0.0833
+Fold 4, Epoch 78/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 78/1000, Precision: 0.9143, Recall: 0.9408, F1-Score: 0.9274, AUC: 0.9989, AUPR: 0.9577
+New best model saved, F1: 0.9274, AUC: 0.9989, AUPR: 0.9577
+Fold 4, Epoch: 79/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 79/1000, Average Train Loss: 0.0017, LR: 0.000025
+Fold 4, Epoch 79, Current decision threshold: 0.0833
+Fold 4, Epoch 79/1000, Validation Loss: 0.0070, Accuracy: 0.9962
+Fold 4, Epoch 79/1000, Precision: 0.9173, Recall: 0.9345, F1-Score: 0.9258, AUC: 0.9989, AUPR: 0.9585
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 80/1000, Batch: 854, Loss: 0.0011
+Fold 4, Epoch 80/1000, Average Train Loss: 0.0017, LR: 0.000025
+Epoch 80: Optimal threshold updated to = 0.0907
+Fold 4, Epoch 80, Current decision threshold: 0.0907
+Fold 4, Epoch 80/1000, Validation Loss: 0.0066, Accuracy: 0.9962
+Fold 4, Epoch 80/1000, Precision: 0.9174, Recall: 0.9357, F1-Score: 0.9265, AUC: 0.9989, AUPR: 0.9589
+New best model saved, F1: 0.9265, AUC: 0.9989, AUPR: 0.9589
+Fold 4, Epoch: 81/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 81/1000, Average Train Loss: 0.0016, LR: 0.000025
+Fold 4, Epoch 81, Current decision threshold: 0.0907
+Fold 4, Epoch 81/1000, Validation Loss: 0.0074, Accuracy: 0.9962
+Fold 4, Epoch 81/1000, Precision: 0.9265, Recall: 0.9243, F1-Score: 0.9254, AUC: 0.9989, AUPR: 0.9583
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 82/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 82/1000, Average Train Loss: 0.0016, LR: 0.000025
+Fold 4, Epoch 82, Current decision threshold: 0.0907
+Fold 4, Epoch 82/1000, Validation Loss: 0.0071, Accuracy: 0.9962
+Fold 4, Epoch 82/1000, Precision: 0.9224, Recall: 0.9267, F1-Score: 0.9245, AUC: 0.9989, AUPR: 0.9578
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 83/1000, Batch: 854, Loss: 0.0021
+Fold 4, Epoch 83/1000, Average Train Loss: 0.0016, LR: 0.000025
+Fold 4, Epoch 83, Current decision threshold: 0.0907
+Fold 4, Epoch 83/1000, Validation Loss: 0.0076, Accuracy: 0.9961
+Fold 4, Epoch 83/1000, Precision: 0.9259, Recall: 0.9204, F1-Score: 0.9231, AUC: 0.9989, AUPR: 0.9572
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 84/1000, Batch: 854, Loss: 0.0013
+Fold 4, Epoch 84/1000, Average Train Loss: 0.0016, LR: 0.000025
+Fold 4, Epoch 84, Current decision threshold: 0.0907
+Fold 4, Epoch 84/1000, Validation Loss: 0.0073, Accuracy: 0.9962
+Fold 4, Epoch 84/1000, Precision: 0.9246, Recall: 0.9232, F1-Score: 0.9239, AUC: 0.9989, AUPR: 0.9596
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 85/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 85/1000, Average Train Loss: 0.0016, LR: 0.000013
+Epoch 85: Optimal threshold updated to = 0.0500
+Fold 4, Epoch 85, Current decision threshold: 0.0500
+Fold 4, Epoch 85/1000, Validation Loss: 0.0074, Accuracy: 0.9962
+Fold 4, Epoch 85/1000, Precision: 0.9034, Recall: 0.9534, F1-Score: 0.9277, AUC: 0.9989, AUPR: 0.9593
+New best model saved, F1: 0.9277, AUC: 0.9989, AUPR: 0.9593
+Fold 4, Epoch: 86/1000, Batch: 854, Loss: 0.0034
+Fold 4, Epoch 86/1000, Average Train Loss: 0.0016, LR: 0.000013
+Fold 4, Epoch 86, Current decision threshold: 0.0500
+Fold 4, Epoch 86/1000, Validation Loss: 0.0068, Accuracy: 0.9961
+Fold 4, Epoch 86/1000, Precision: 0.8961, Recall: 0.9573, F1-Score: 0.9257, AUC: 0.9989, AUPR: 0.9587
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 87/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 87/1000, Average Train Loss: 0.0016, LR: 0.000013
+Fold 4, Epoch 87, Current decision threshold: 0.0500
+Fold 4, Epoch 87/1000, Validation Loss: 0.0068, Accuracy: 0.9960
+Fold 4, Epoch 87/1000, Precision: 0.8913, Recall: 0.9577, F1-Score: 0.9233, AUC: 0.9989, AUPR: 0.9587
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 88/1000, Batch: 854, Loss: 0.0014
+Fold 4, Epoch 88/1000, Average Train Loss: 0.0015, LR: 0.000013
+Fold 4, Epoch 88, Current decision threshold: 0.0500
+Fold 4, Epoch 88/1000, Validation Loss: 0.0074, Accuracy: 0.9962
+Fold 4, Epoch 88/1000, Precision: 0.9030, Recall: 0.9530, F1-Score: 0.9273, AUC: 0.9989, AUPR: 0.9597
+New best model saved, F1: 0.9273, AUC: 0.9989, AUPR: 0.9597
+Fold 4, Epoch: 89/1000, Batch: 854, Loss: 0.0003
+Fold 4, Epoch 89/1000, Average Train Loss: 0.0015, LR: 0.000013
+Fold 4, Epoch 89, Current decision threshold: 0.0500
+Fold 4, Epoch 89/1000, Validation Loss: 0.0068, Accuracy: 0.9961
+Fold 4, Epoch 89/1000, Precision: 0.8957, Recall: 0.9565, F1-Score: 0.9251, AUC: 0.9989, AUPR: 0.9604
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 90/1000, Batch: 854, Loss: 0.0010
+Fold 4, Epoch 90/1000, Average Train Loss: 0.0015, LR: 0.000013
+Epoch 90: Optimal threshold updated to = 0.0569
+Fold 4, Epoch 90, Current decision threshold: 0.0569
+Fold 4, Epoch 90/1000, Validation Loss: 0.0072, Accuracy: 0.9963
+Fold 4, Epoch 90/1000, Precision: 0.9077, Recall: 0.9483, F1-Score: 0.9275, AUC: 0.9989, AUPR: 0.9588
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 91/1000, Batch: 854, Loss: 0.0006
+Fold 4, Epoch 91/1000, Average Train Loss: 0.0015, LR: 0.000013
+Fold 4, Epoch 91, Current decision threshold: 0.0569
+Fold 4, Epoch 91/1000, Validation Loss: 0.0075, Accuracy: 0.9962
+Fold 4, Epoch 91/1000, Precision: 0.9101, Recall: 0.9443, F1-Score: 0.9269, AUC: 0.9989, AUPR: 0.9586
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 92/1000, Batch: 854, Loss: 0.0006
+Fold 4, Epoch 92/1000, Average Train Loss: 0.0015, LR: 0.000013
+Fold 4, Epoch 92, Current decision threshold: 0.0569
+Fold 4, Epoch 92/1000, Validation Loss: 0.0066, Accuracy: 0.9960
+Fold 4, Epoch 92/1000, Precision: 0.8976, Recall: 0.9522, F1-Score: 0.9241, AUC: 0.9989, AUPR: 0.9595
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 93/1000, Batch: 854, Loss: 0.0035
+Fold 4, Epoch 93/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 93, Current decision threshold: 0.0569
+Fold 4, Epoch 93/1000, Validation Loss: 0.0068, Accuracy: 0.9962
+Fold 4, Epoch 93/1000, Precision: 0.9036, Recall: 0.9518, F1-Score: 0.9271, AUC: 0.9989, AUPR: 0.9598
+No improvement, patience counter: 5/25
+Fold 4, Epoch: 94/1000, Batch: 854, Loss: 0.0032
+Fold 4, Epoch 94/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 94, Current decision threshold: 0.0569
+Fold 4, Epoch 94/1000, Validation Loss: 0.0069, Accuracy: 0.9962
+Fold 4, Epoch 94/1000, Precision: 0.9026, Recall: 0.9522, F1-Score: 0.9267, AUC: 0.9989, AUPR: 0.9593
+No improvement, patience counter: 6/25
+Fold 4, Epoch: 95/1000, Batch: 854, Loss: 0.0032
+Fold 4, Epoch 95/1000, Average Train Loss: 0.0015, LR: 0.000006
+Epoch 95: Optimal threshold updated to = 0.0720
+Fold 4, Epoch 95, Current decision threshold: 0.0720
+Fold 4, Epoch 95/1000, Validation Loss: 0.0065, Accuracy: 0.9963
+Fold 4, Epoch 95/1000, Precision: 0.9106, Recall: 0.9459, F1-Score: 0.9279, AUC: 0.9989, AUPR: 0.9597
+New best model saved, F1: 0.9279, AUC: 0.9989, AUPR: 0.9597
+Fold 4, Epoch: 96/1000, Batch: 854, Loss: 0.0016
+Fold 4, Epoch 96/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 96, Current decision threshold: 0.0720
+Fold 4, Epoch 96/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 96/1000, Precision: 0.9138, Recall: 0.9432, F1-Score: 0.9282, AUC: 0.9989, AUPR: 0.9600
+New best model saved, F1: 0.9282, AUC: 0.9989, AUPR: 0.9600
+Fold 4, Epoch: 97/1000, Batch: 854, Loss: 0.0019
+Fold 4, Epoch 97/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 97, Current decision threshold: 0.0720
+Fold 4, Epoch 97/1000, Validation Loss: 0.0066, Accuracy: 0.9963
+Fold 4, Epoch 97/1000, Precision: 0.9119, Recall: 0.9451, F1-Score: 0.9282, AUC: 0.9989, AUPR: 0.9595
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 98/1000, Batch: 854, Loss: 0.0017
+Fold 4, Epoch 98/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 98, Current decision threshold: 0.0720
+Fold 4, Epoch 98/1000, Validation Loss: 0.0069, Accuracy: 0.9963
+Fold 4, Epoch 98/1000, Precision: 0.9148, Recall: 0.9424, F1-Score: 0.9284, AUC: 0.9989, AUPR: 0.9593
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 99/1000, Batch: 854, Loss: 0.0009
+Fold 4, Epoch 99/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 99, Current decision threshold: 0.0720
+Fold 4, Epoch 99/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 99/1000, Precision: 0.9136, Recall: 0.9447, F1-Score: 0.9289, AUC: 0.9989, AUPR: 0.9595
+New best model saved, F1: 0.9289, AUC: 0.9989, AUPR: 0.9595
+Fold 4, Epoch: 100/1000, Batch: 854, Loss: 0.0016
+Fold 4, Epoch 100/1000, Average Train Loss: 0.0015, LR: 0.000006
+Epoch 100: Optimal threshold updated to = 0.0758
+Fold 4, Epoch 100, Current decision threshold: 0.0758
+Fold 4, Epoch 100/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 100/1000, Precision: 0.9192, Recall: 0.9408, F1-Score: 0.9299, AUC: 0.9989, AUPR: 0.9599
+New best model saved, F1: 0.9299, AUC: 0.9989, AUPR: 0.9599
+Fold 4, Epoch: 101/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 101/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 101, Current decision threshold: 0.0758
+Fold 4, Epoch 101/1000, Validation Loss: 0.0069, Accuracy: 0.9963
+Fold 4, Epoch 101/1000, Precision: 0.9174, Recall: 0.9365, F1-Score: 0.9269, AUC: 0.9989, AUPR: 0.9598
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 102/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 102/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 102, Current decision threshold: 0.0758
+Fold 4, Epoch 102/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 102/1000, Precision: 0.9158, Recall: 0.9381, F1-Score: 0.9268, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 103/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 103/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 103, Current decision threshold: 0.0758
+Fold 4, Epoch 103/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 103/1000, Precision: 0.9137, Recall: 0.9424, F1-Score: 0.9278, AUC: 0.9989, AUPR: 0.9598
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 104/1000, Batch: 854, Loss: 0.0018
+Fold 4, Epoch 104/1000, Average Train Loss: 0.0015, LR: 0.000006
+Fold 4, Epoch 104, Current decision threshold: 0.0758
+Fold 4, Epoch 104/1000, Validation Loss: 0.0070, Accuracy: 0.9963
+Fold 4, Epoch 104/1000, Precision: 0.9178, Recall: 0.9361, F1-Score: 0.9268, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 105/1000, Batch: 854, Loss: 0.0023
+Fold 4, Epoch 105/1000, Average Train Loss: 0.0014, LR: 0.000003
+Epoch 105: Optimal threshold updated to = 0.0717
+Fold 4, Epoch 105, Current decision threshold: 0.0717
+Fold 4, Epoch 105/1000, Validation Loss: 0.0067, Accuracy: 0.9964
+Fold 4, Epoch 105/1000, Precision: 0.9149, Recall: 0.9443, F1-Score: 0.9294, AUC: 0.9989, AUPR: 0.9606
+New best model saved, F1: 0.9294, AUC: 0.9989, AUPR: 0.9606
+Fold 4, Epoch: 106/1000, Batch: 854, Loss: 0.0027
+Fold 4, Epoch 106/1000, Average Train Loss: 0.0015, LR: 0.000003
+Fold 4, Epoch 106, Current decision threshold: 0.0717
+Fold 4, Epoch 106/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 106/1000, Precision: 0.9143, Recall: 0.9412, F1-Score: 0.9276, AUC: 0.9989, AUPR: 0.9605
+No improvement, patience counter: 1/25
+Fold 4, Epoch: 107/1000, Batch: 854, Loss: 0.0009
+Fold 4, Epoch 107/1000, Average Train Loss: 0.0015, LR: 0.000003
+Fold 4, Epoch 107, Current decision threshold: 0.0717
+Fold 4, Epoch 107/1000, Validation Loss: 0.0070, Accuracy: 0.9963
+Fold 4, Epoch 107/1000, Precision: 0.9177, Recall: 0.9392, F1-Score: 0.9283, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 2/25
+Fold 4, Epoch: 108/1000, Batch: 854, Loss: 0.0004
+Fold 4, Epoch 108/1000, Average Train Loss: 0.0014, LR: 0.000003
+Fold 4, Epoch 108, Current decision threshold: 0.0717
+Fold 4, Epoch 108/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 108/1000, Precision: 0.9157, Recall: 0.9416, F1-Score: 0.9285, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 3/25
+Fold 4, Epoch: 109/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 109/1000, Average Train Loss: 0.0015, LR: 0.000003
+Fold 4, Epoch 109, Current decision threshold: 0.0717
+Fold 4, Epoch 109/1000, Validation Loss: 0.0069, Accuracy: 0.9963
+Fold 4, Epoch 109/1000, Precision: 0.9163, Recall: 0.9400, F1-Score: 0.9280, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 4/25
+Fold 4, Epoch: 110/1000, Batch: 854, Loss: 0.0038
+Fold 4, Epoch 110/1000, Average Train Loss: 0.0014, LR: 0.000002
+Epoch 110: Optimal threshold updated to = 0.0671
+Fold 4, Epoch 110, Current decision threshold: 0.0671
+Fold 4, Epoch 110/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 110/1000, Precision: 0.9110, Recall: 0.9471, F1-Score: 0.9287, AUC: 0.9989, AUPR: 0.9604
+No improvement, patience counter: 5/25
+Fold 4, Epoch: 111/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 111/1000, Average Train Loss: 0.0015, LR: 0.000002
+Fold 4, Epoch 111, Current decision threshold: 0.0671
+Fold 4, Epoch 111/1000, Validation Loss: 0.0069, Accuracy: 0.9963
+Fold 4, Epoch 111/1000, Precision: 0.9135, Recall: 0.9439, F1-Score: 0.9285, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 6/25
+Fold 4, Epoch: 112/1000, Batch: 854, Loss: 0.0014
+Fold 4, Epoch 112/1000, Average Train Loss: 0.0014, LR: 0.000002
+Fold 4, Epoch 112, Current decision threshold: 0.0671
+Fold 4, Epoch 112/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 112/1000, Precision: 0.9115, Recall: 0.9451, F1-Score: 0.9280, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 7/25
+Fold 4, Epoch: 113/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 113/1000, Average Train Loss: 0.0014, LR: 0.000002
+Fold 4, Epoch 113, Current decision threshold: 0.0671
+Fold 4, Epoch 113/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 113/1000, Precision: 0.9118, Recall: 0.9447, F1-Score: 0.9280, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 8/25
+Fold 4, Epoch: 114/1000, Batch: 854, Loss: 0.0023
+Fold 4, Epoch 114/1000, Average Train Loss: 0.0014, LR: 0.000001
+Fold 4, Epoch 114, Current decision threshold: 0.0671
+Fold 4, Epoch 114/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 114/1000, Precision: 0.9133, Recall: 0.9451, F1-Score: 0.9289, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 9/25
+Fold 4, Epoch: 115/1000, Batch: 854, Loss: 0.0009
+Fold 4, Epoch 115/1000, Average Train Loss: 0.0014, LR: 0.000001
+Epoch 115: Optimal threshold updated to = 0.0665
+Fold 4, Epoch 115, Current decision threshold: 0.0665
+Fold 4, Epoch 115/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 115/1000, Precision: 0.9126, Recall: 0.9455, F1-Score: 0.9288, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 10/25
+Fold 4, Epoch: 116/1000, Batch: 854, Loss: 0.0038
+Fold 4, Epoch 116/1000, Average Train Loss: 0.0014, LR: 0.000001
+Fold 4, Epoch 116, Current decision threshold: 0.0665
+Fold 4, Epoch 116/1000, Validation Loss: 0.0067, Accuracy: 0.9963
+Fold 4, Epoch 116/1000, Precision: 0.9106, Recall: 0.9459, F1-Score: 0.9279, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 11/25
+Fold 4, Epoch: 117/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 117/1000, Average Train Loss: 0.0015, LR: 0.000001
+Fold 4, Epoch 117, Current decision threshold: 0.0665
+Fold 4, Epoch 117/1000, Validation Loss: 0.0067, Accuracy: 0.9962
+Fold 4, Epoch 117/1000, Precision: 0.9092, Recall: 0.9459, F1-Score: 0.9272, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 12/25
+Fold 4, Epoch: 118/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 118/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 118, Current decision threshold: 0.0665
+Fold 4, Epoch 118/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 118/1000, Precision: 0.9126, Recall: 0.9451, F1-Score: 0.9286, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 13/25
+Fold 4, Epoch: 119/1000, Batch: 854, Loss: 0.0041
+Fold 4, Epoch 119/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 119, Current decision threshold: 0.0665
+Fold 4, Epoch 119/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 119/1000, Precision: 0.9126, Recall: 0.9455, F1-Score: 0.9288, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 14/25
+Fold 4, Epoch: 120/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 120/1000, Average Train Loss: 0.0014, LR: 0.000000
+Epoch 120: Optimal threshold updated to = 0.0739
+Fold 4, Epoch 120, Current decision threshold: 0.0739
+Fold 4, Epoch 120/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 120/1000, Precision: 0.9178, Recall: 0.9412, F1-Score: 0.9294, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 15/25
+Fold 4, Epoch: 121/1000, Batch: 854, Loss: 0.0034
+Fold 4, Epoch 121/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 121, Current decision threshold: 0.0739
+Fold 4, Epoch 121/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 121/1000, Precision: 0.9178, Recall: 0.9404, F1-Score: 0.9289, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 16/25
+Fold 4, Epoch: 122/1000, Batch: 854, Loss: 0.0009
+Fold 4, Epoch 122/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 122, Current decision threshold: 0.0739
+Fold 4, Epoch 122/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 122/1000, Precision: 0.9178, Recall: 0.9408, F1-Score: 0.9292, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 17/25
+Fold 4, Epoch: 123/1000, Batch: 854, Loss: 0.0008
+Fold 4, Epoch 123/1000, Average Train Loss: 0.0015, LR: 0.000000
+Fold 4, Epoch 123, Current decision threshold: 0.0739
+Fold 4, Epoch 123/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 123/1000, Precision: 0.9180, Recall: 0.9396, F1-Score: 0.9287, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 18/25
+Fold 4, Epoch: 124/1000, Batch: 854, Loss: 0.0012
+Fold 4, Epoch 124/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 124, Current decision threshold: 0.0739
+Fold 4, Epoch 124/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 124/1000, Precision: 0.9174, Recall: 0.9404, F1-Score: 0.9288, AUC: 0.9989, AUPR: 0.9602
+No improvement, patience counter: 19/25
+Fold 4, Epoch: 125/1000, Batch: 854, Loss: 0.0017
+Fold 4, Epoch 125/1000, Average Train Loss: 0.0015, LR: 0.000000
+Epoch 125: Optimal threshold updated to = 0.0712
+Fold 4, Epoch 125, Current decision threshold: 0.0712
+Fold 4, Epoch 125/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 125/1000, Precision: 0.9155, Recall: 0.9428, F1-Score: 0.9289, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 20/25
+Fold 4, Epoch: 126/1000, Batch: 854, Loss: 0.0020
+Fold 4, Epoch 126/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 126, Current decision threshold: 0.0712
+Fold 4, Epoch 126/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 126/1000, Precision: 0.9155, Recall: 0.9428, F1-Score: 0.9289, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 21/25
+Fold 4, Epoch: 127/1000, Batch: 854, Loss: 0.0007
+Fold 4, Epoch 127/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 127, Current decision threshold: 0.0712
+Fold 4, Epoch 127/1000, Validation Loss: 0.0068, Accuracy: 0.9963
+Fold 4, Epoch 127/1000, Precision: 0.9154, Recall: 0.9420, F1-Score: 0.9285, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 22/25
+Fold 4, Epoch: 128/1000, Batch: 854, Loss: 0.0006
+Fold 4, Epoch 128/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 128, Current decision threshold: 0.0712
+Fold 4, Epoch 128/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 128/1000, Precision: 0.9158, Recall: 0.9428, F1-Score: 0.9291, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 23/25
+Fold 4, Epoch: 129/1000, Batch: 854, Loss: 0.0017
+Fold 4, Epoch 129/1000, Average Train Loss: 0.0014, LR: 0.000000
+Fold 4, Epoch 129, Current decision threshold: 0.0712
+Fold 4, Epoch 129/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 129/1000, Precision: 0.9155, Recall: 0.9428, F1-Score: 0.9289, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 24/25
+Fold 4, Epoch: 130/1000, Batch: 854, Loss: 0.0015
+Fold 4, Epoch 130/1000, Average Train Loss: 0.0014, LR: 0.000000
+Epoch 130: Optimal threshold updated to = 0.0740
+Fold 4, Epoch 130, Current decision threshold: 0.0740
+Fold 4, Epoch 130/1000, Validation Loss: 0.0068, Accuracy: 0.9964
+Fold 4, Epoch 130/1000, Precision: 0.9178, Recall: 0.9408, F1-Score: 0.9292, AUC: 0.9989, AUPR: 0.9603
+No improvement, patience counter: 25/25
+Early stopping at epoch 130
+Restored best model, F1: 0.9294, AUC: 0.9989, AUPR: 0.9606
+Round 0, Fold 4 best model and threshold 0.0740 saved to D:\SPAN\models\span_round_0_fold_4.pkl
+Completed fold 4 in 5-folds, Validation Loss: 0.0067, Accuracy: 0.9964
+Completed fold 4 in 5-folds, Precision: 0.9149, Recall: 0.9443, F1-Score: 0.9294, AUC: 0.9989, AUPR: 0.9606
+Fold 4 test Finished! - 2026-03-29 07:42:09
+======================================================================
+Final Results Summary
+----------------------------------------------------------------------
+AUC         AUPR        Acc         F1          Pre         Recall      
+0.9989      0.9606      0.9964      0.9294      0.9149      0.9443      
+======================================================================
