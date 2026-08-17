@@ -148,9 +148,9 @@ analysis\plot_performance_comparison\run_plot_performance_comparison.bat
 # (result files saved in analysis\plot_performance_comparison\ as figure2.png and figure2.pdf)
 ```
 
-##### 3. 进行案例分析，生成结果图和靶标建议报告。请先解压plot_case_studies.zip到analysis\plot_case_studies目录，然后执行批处理程序或依次执行python脚本。
+##### 3. 进行案例分析，生成结果图和靶标建议报告。请执行批处理程序或依次执行python脚本。
 
-##### 3. Conduct case analysis, generate result figure and target recommendation reports. Unzip plot_case_studies.zip to analysis\plot_case_studies directory first, then execute batch processing programs or run python scripts sequentially.
+##### 3. Conduct case analysis, generate result figure and target recommendation reports. Execute batch processing programs or run python scripts sequentially.
 
 ```Shell
 analysis\plot_case_studies\run_plot_case_studies.bat
