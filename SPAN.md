@@ -130,9 +130,9 @@ python -u ".\Retest_SPAN.py" --k 5 --index 0 --round 1
 ......
 ```
 
-##### 1. 重现实验结果，使用训练好的模型进行测试。
+##### 1. 重现实验结果，使用训练好的模型进行测试。请执行批处理程序或依次执行python脚本。
 
-##### 1. Reproduce experimental results by testing the trained model.
+##### 1. Reproduce experimental results by testing the trained model. Execute batch processing programs or run python scripts sequentially.
 
 ```Shell
 .\batchretest.bat #(retested results saved in ./logs as retest-round_x-fold_y.log)
