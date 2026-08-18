@@ -1,62 +1,68 @@
-Package            Version
------------------- ------------
-aiohappyeyeballs   2.6.1
-aiohttp            3.13.4
-aiosignal          1.4.0
-async-timeout      5.0.1
-attrs              26.1.0
-certifi            2022.12.7
-charset-normalizer 2.1.1
-colorama           0.4.6
-filelock           3.19.1
-frozenlist         1.8.0
-fsspec             2025.10.0
-idna               3.4
-imbalanced-learn   0.12.4
-Jinja2             3.1.6
-joblib             1.5.3
-MarkupSafe         3.0.2
-mpmath             1.3.0
-multidict          6.7.1
-networkx           3.2.1
-numpy              1.26.4
-pillow             11.3.0
-pip                26.0.1
-propcache          0.4.1
-psutil             7.2.2
-pyparsing          3.3.2
-requests           2.28.1
-scikit-learn       1.6.1
-scipy              1.12.0
-setuptools         80.9.0
-sympy              1.14.0
-threadpoolctl      3.6.0
-torch              2.2.0+cu118
-torch-geometric    2.6.1
-torchaudio         2.2.0+cu118
-torchvision        0.17.0+cu118
-tqdm               4.67.3
-typing_extensions  4.15.0
-urllib3            1.26.13
-wheel              0.45.1
-yarl               1.22.0
+Package             Version
+------------------- ------------
+aiohappyeyeballs    2.6.1
+aiohttp             3.13.4
+aiosignal           1.4.0
+async-timeout       5.0.1
+attrs               26.1.0
+certifi             2022.12.7
+charset-normalizer  2.1.1
+colorama            0.4.6
+contourpy           1.3.0
+cycler              0.12.1
+filelock            3.19.1
+fonttools           4.60.2
+frozenlist          1.8.0
+fsspec              2025.10.0
+idna                3.4
+imbalanced-learn    0.12.4
+importlib_resources 6.5.2
+Jinja2              3.1.6
+joblib              1.5.3
+kiwisolver          1.4.7
+MarkupSafe          3.0.2
+matplotlib          3.8.2
+mpmath              1.3.0
+multidict           6.7.1
+networkx            3.2.1
+numpy               1.26.4
+packaging           26.3
+pandas              2.2.0
+pillow              11.3.0
+pip                 26.0.1
+propcache           0.4.1
+psutil              7.2.2
+pyparsing           3.3.2
+python-dateutil     2.9.0.post0
+pytz                2026.3.post1
+requests            2.28.1
+scikit-learn        1.6.1
+scipy               1.12.0
+setuptools          80.9.0
+six                 1.17.0
+sympy               1.14.0
+threadpoolctl       3.6.0
+torch               2.2.0+cu118
+torch-geometric     2.6.1
+torchaudio          2.2.0+cu118
+torchvision         0.17.0+cu118
+tqdm                4.67.3
+typing_extensions   4.15.0
+tzdata              2026.3
+urllib3             1.26.13
+wheel               0.45.1
+yarl                1.22.0
+zipp                3.23.1
 
 
+# 选择下面两种方法之一创建python虚拟环境并安装依赖       
+# Select one of the following two options to create a python virtual environment and install dependencies
 
-# 创建python虚拟环境和安装依赖
-# Create a python virtual environment and install dependencies
-
+# 1. 使用conda安装虚拟环境
+# 1. install virtual environment with conda
 conda create -n combio python=3.9.18
-conda activate combio
-# pip config set global.index-url --site https://mirrors.aliyun.com/pypi/simple
-# select one of the following two options to install dependencies
-# option 1: 
+conda activate combio 
 pip install -r requirements.txt
-# option 2: 
-pip install numpy==1.26.4
-pip install scipy==1.12.0
-pip install torch==2.2.0+cu118 torchvision==0.17.0+cu118 torchaudio==2.2.0+cu118 --index-url https://download.pytorch.org/whl/cu118
-pip install torch-geometric==2.6.1
-pip install imbalanced-learn==0.12.4
 
-
+# 2. 下载 https://github.com/fafafoo/combio 网址中的压缩包，解压安装python虚拟环境
+# 2. Download the zip package from https://github.com/fafafoo/combio, unzip and install python virtual environment
