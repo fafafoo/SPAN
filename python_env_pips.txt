@@ -64,5 +64,5 @@ conda create -n combio python=3.9.18
 conda activate combio 
 pip install -r requirements.txt
 
-# 2. 下载 https://github.com/fafafoo/combio 网址中的压缩包，解压安装python虚拟环境
-# 2. Download the zip package from https://github.com/fafafoo/combio, unzip and install python virtual environment
+# 2. 下载 https://zenodo.org/records/22005356 或者 https://github.com/fafafoo/combio 网址中的压缩包，解压安装python虚拟环境
+# 2. Download the zip package from https://zenodo.org/records/22005356 or https://github.com/fafafoo/combio, unzip and install python virtual environment
