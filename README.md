@@ -22,6 +22,9 @@
 ##### ├── LICENSE
 ##### └── batchretest.bat   (重现 retest)
 
+###### Python虚拟环境下载网址：https://zenodo.org/records/22005356 或者 https://github.com/fafafoo/combio
+###### Python virtual environment download URL: https://zenodo.org/records/22005356 or https://github.com/fafafoo/combio
+
 ##### 创建折叠数据集和分割文件, k 表示折叠的数量, round表示当前的轮次。
 
 ##### Create folds and split files, k indicates the number of folds, round represents the current round.
