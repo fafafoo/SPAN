@@ -1,4 +1,4 @@
-# SPAN: Subgraph Progressive Attention Networks for microRNA-disease association prediction
+# SPAN: Subgraph Progressive Attention Network for microRNA-disease association prediction
 # Copyright (c) 2025 SPAN Authors
 # Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 # You may use, modify, and distribute this software for non-commercial purposes only.
@@ -8,7 +8,7 @@ import os
 import numpy as np
 
 # 子图渐进式注意力网络用于微小RNA-Disease关系预测
-# SPAN: subgraph progressive attention networks for microRNA-disease association prediction
+# SPAN: Subgraph Progressive Attention Network for microRNA-disease association prediction
 # 系统配置类
 class SysConfig:
     

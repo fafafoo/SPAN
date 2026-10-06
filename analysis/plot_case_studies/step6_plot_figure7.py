@@ -1,4 +1,4 @@
-# SPAN: Subgraph Progressive Attention Networks for microRNA-disease association prediction
+# SPAN: Subgraph Progressive Attention Network for microRNA-disease association prediction
 # Copyright (c) 2025 SPAN Authors
 # Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 # You may use, modify, and distribute this software for non-commercial purposes only.
@@ -11,7 +11,7 @@ Instead of loading pre-rendered PNG images (which causes quality loss from
 double rasterization), this script directly renders both panels as subplots
 in a single matplotlib figure.
 
-Style: Nature Communications — clean, professional, high-impact journal standard.
+Style: Journal — clean, professional, high-impact journal standard.
 
 Layout: Vertical (Panel A on top, Panel B on bottom)
 
@@ -231,12 +231,18 @@ def compute_layout(filtered):
         disease_positions[dn] = (x, y)
         disease_angle_map[dn] = angle
 
+    # NOTE: "diseases" is a dict (insertion-ordered) rather than a set.
+    # Set iteration order depends on PYTHONHASHSEED, which made the layout
+    # non-reproducible across runs: mean_angle() sums sin/cos terms, and
+    # floating-point addition is not associative, so a different iteration
+    # order shifted the angles by ~1e-16 and flipped the ordering / the
+    # min-angular-gap branch, visibly moving nodes between runs.
     mirna_data = defaultdict(
-        lambda: {"diseases": set(), "edges": [], "max_score": -1.0}
+        lambda: {"diseases": {}, "edges": [], "max_score": -1.0}
     )
     for rec in filtered:
         mn = rec["mirna_name"]
-        mirna_data[mn]["diseases"].add(rec["disease"])
+        mirna_data[mn]["diseases"][rec["disease"]] = None
         mirna_data[mn]["edges"].append((rec["disease"], rec["edge_type"], rec["predicted_score"]))
         if rec["predicted_score"] > mirna_data[mn]["max_score"]:
             mirna_data[mn]["max_score"] = rec["predicted_score"]
@@ -766,6 +772,8 @@ def draw_panel_b(ax, k=PANEL_B_K):
 def main():
     plt.rcParams.update({
         "font.family": "Arial",
+        "pdf.fonttype": 42,
+        "ps.fonttype": 42,
         "font.size": 7,
         "axes.linewidth": 1.0,
         "xtick.major.width": 1.0,

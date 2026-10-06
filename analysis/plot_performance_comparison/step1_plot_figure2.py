@@ -1,4 +1,4 @@
-# SPAN: Subgraph Progressive Attention Networks for microRNA-disease association prediction
+# SPAN: Subgraph Progressive Attention Network for microRNA-disease association prediction
 # Copyright (c) 2025 SPAN Authors
 # Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 # You may use, modify, and distribute this software for non-commercial purposes only.
@@ -18,6 +18,8 @@ np.random.seed(42)
 
 plt.rcParams.update({
     "font.family": "Arial",
+    "pdf.fonttype": 42,
+    "ps.fonttype": 42,
     "font.size": 7,
     "axes.linewidth": 1.0,
     "xtick.major.width": 1.0,
@@ -58,14 +60,17 @@ for _, row in means_df.iterrows():
 metric_names = ['AUC', 'AUPR', 'ACC', 'F1', 'Precision', 'Recall']
 panel_a_data = [span_runs[:, i] for i in range(6)]
 
+# Column positions: 6 metrics with spacing 0.8 (was 1.0)
+col_pos = np.linspace(1, 5, 6)  # [1.0, 1.8, 2.6, 3.4, 4.2, 5.0]
+
 # ========== Plotting ==========
-fig, axes = plt.subplots(2, 1, figsize=(7.0, 5.5), dpi=300)
+fig, axes = plt.subplots(2, 1, figsize=(6.693, 5.5), dpi=300)
 
 # ========== Panel a: SPAN 10-run boxplot + jittered scatter ==========
 ax1 = axes[0]
 
 n_runs = 10
-bp = ax1.boxplot(panel_a_data, positions=range(1, 7), widths=0.5, patch_artist=True,
+bp = ax1.boxplot(panel_a_data, positions=col_pos, widths=0.5, patch_artist=True,
                  showmeans=True,
                  meanprops=dict(marker='D', markerfacecolor='#E74C3C',
                                markeredgecolor='black', markersize=7))
@@ -83,7 +88,7 @@ for median in bp['medians']:
 # Jittered scatter points (10 runs, different colors)
 run_colors = plt.cm.tab10(np.linspace(0, 1, n_runs))
 for i, data in enumerate(panel_a_data):
-    x_jittered = np.random.normal(i+1, 0.06, n_runs)
+    x_jittered = np.random.normal(col_pos[i], 0.06, n_runs)
     for j, (x, y) in enumerate(zip(x_jittered, data)):
         ax1.scatter(x, y, s=40, color=run_colors[j], edgecolors='white',
                    linewidth=0.5, alpha=0.85, zorder=3)
@@ -106,13 +111,14 @@ for i, data in enumerate(panel_a_data):
     min_scatter_y = np.min(data)
     # Take the lower of the two, then subtract 0.004
     lowest_y = min(lower_whisker_y, min_scatter_y) - 0.004   
-    ax1.text(i+1, lowest_y, f'{mean:.4f} \u00b1 {std:.4f}\nCV={cv:.2f}%',
+    ax1.text(col_pos[i], lowest_y, f'{mean:.4f} \u00b1 {std:.4f}\nCV={cv:.2f}%',
                 ha='center', va='top', fontsize=7, color='#555555')
 
-ax1.set_xticks(range(1, 7))
+ax1.set_xticks(col_pos)
 ax1.set_xticklabels(metric_names, fontsize=7)
 ax1.set_ylabel('Performance', fontsize=7)
 ax1.set_ylim(0.895, 1.005)
+ax1.set_xlim(col_pos[0] - 0.35, col_pos[-1] + 0.35)
 ax1.set_title('Robustness analysis of SPAN across 10 independent runs',
               fontsize=7, fontweight='bold', loc='left')
 
@@ -140,7 +146,7 @@ ax1.text(-0.02, 1.02, 'a', transform=ax1.transAxes,
 # ========== Panel b: Multi-system comparison ==========
 ax2 = axes[1]
 
-x_pos = np.arange(1, 7)
+x_pos = col_pos
 dodge = 0.15
 
 # System styles — Okabe-Ito colorblind-safe palette
@@ -194,10 +200,11 @@ for i in [0, 2, 3]:
                 xy=(x_pos[i] + 1*dodge - 0.12, span_means[i]),
                 ha='left', va='center', fontsize=7, color='#D55E00', fontweight='bold')
 
-ax2.set_xticks(range(1, 7))
+ax2.set_xticks(col_pos)
 ax2.set_xticklabels(metric_names, fontsize=7)
 ax2.set_ylabel('Performance', fontsize=7)
 ax2.set_ylim(0.85, 1.005)
+ax2.set_xlim(col_pos[0] - 0.35, col_pos[-1] + 0.35)
 ax2.set_title('Comparative performance against state-of-the-art methods',
               fontsize=7, fontweight='bold', loc='left')
 
@@ -235,8 +242,8 @@ for ax in axes:
 # Save in two formats:
 # - PDF: vector format for final artwork submission 
 # - PNG: high-resolution raster for embedding in Word manuscript
-pdf_path = os.path.join(script_dir, 'figure2_performance.pdf')
-png_path = os.path.join(script_dir, 'figure2_performance.png')
+pdf_path = os.path.join(script_dir, 'figure2_performance_jbs.pdf')
+png_path = os.path.join(script_dir, 'figure2_performance_jbs.png')
 
 fig.savefig(pdf_path, bbox_inches='tight',
             facecolor='white', edgecolor='none',
@@ -245,6 +252,6 @@ fig.savefig(png_path, bbox_inches='tight',
             facecolor='white', edgecolor='none',
             dpi=600)
 plt.close(fig)
-print("Figure 2 saved to:")
+print("Figure 2 (JBS) saved to:")
 print(f"  PDF (vector): {pdf_path}")
 print(f"  PNG (600 DPI): {png_path}")

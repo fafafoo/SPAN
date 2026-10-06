@@ -1,4 +1,4 @@
-# SPAN: Subgraph Progressive Attention Networks for microRNA-disease association prediction
+# SPAN: Subgraph Progressive Attention Network for microRNA-disease association prediction
 # Copyright (c) 2025 SPAN Authors
 # Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 # You may use, modify, and distribute this software for non-commercial purposes only.
